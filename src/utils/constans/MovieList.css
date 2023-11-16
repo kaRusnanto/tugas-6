@@ -1,0 +1,34 @@
+/* Style for the container of each movie */
+.movie-container {
+    width: 300px; /* Adjust the width as needed */
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #000000;
+    border-radius: 8px;
+    text-align: center;
+}
+
+/* Style for the movie title */
+.movie-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Style for the movie image */
+.movie-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Style for the movie release date */
+.movie-date {
+    margin-top: 10px;
+    color: #ffe600;
+}
+
+/* Apply some hover effect on the movie container */
+.movie-container:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
